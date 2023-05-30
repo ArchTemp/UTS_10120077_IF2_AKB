@@ -18,5 +18,3 @@ public interface NoteInterface {
     public boolean update(Note note);
     public boolean delete(String id);
 }
-
-//29 mei 2023 Rifa Said Aqil Hammam 10120192 IF5
