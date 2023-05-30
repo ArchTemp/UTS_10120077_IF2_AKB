@@ -95,7 +95,7 @@ public class AddNoteActivity extends AppCompatActivity {
             editDesc.setText(note.getDesc());
 
             deleteButton.setVisibility(View.VISIBLE);
-            titleAdd.setText("Edit Catatan");
+            titleAdd.setText("Edit Note");
 
             addButton.setOnClickListener(v -> {
                 if (editTitle.getText().toString().isEmpty()) {
